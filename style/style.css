@@ -7,6 +7,16 @@ h1{
     font-family: 'Josefin Sans', Regular;
     font-size: 60px;
 }
+h2{
+    color: white;
+    font-family: 'Josefin Sans', Regular;
+    font-size: 46px;
+}
+h3{
+    color: white;
+    font-family: 'Darker Grotesque', SemiBold;
+    font-size: 30px;
+}
 
 a {
     text-decoration: none;
@@ -20,6 +30,8 @@ p {
     font-size: 20px;
 }
 ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 .container {
@@ -33,6 +45,9 @@ ul {
 .d-flex {
     display: flex;
 }
+.d-grid {
+    display: grid;
+}
 .flex-sb {
     justify-content: space-between;
 }
@@ -44,9 +59,76 @@ ul {
 
 .main-menu__lp {
     width: 530px;
-    height: 750px;
-    
+    height: 380px;
+    margin: 184px 0;
 }
 .large-p-text {
     font-size: 32px;
+}
+.main-menu__btns {
+    margin-top: 100px;
+    width: 410px;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    gap: 10px;
+    background-color: #40467C;
+}
+.purple-btn-one {
+    width: 176px;
+}
+.purple-btn-two {
+    width: 210px;
+}
+.btn:hover {
+    background-color: #51578C;
+}
+.btn:active {
+    background-color: #121521;
+    border: 2px solid white;
+}
+.header-bg {
+    height: 750px;
+}
+
+
+.film-exp__video {
+    width: 606px;
+    height: 524px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/expierense-pic.jpg);
+    opacity: 0.6;
+}
+.film-exp__general {
+    margin-top: 120px;
+    width: 1242px;
+    height: 524px;
+    background-color: #1B213A;
+    align-items: center;
+}
+.film-exp__rp {
+    width: 576px;
+    height: 414px;
+    margin: 0 30px ;
+}
+.film-exp__rp h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    margin: auto 0;
+}
+.film-exp__blocks {
+    grid-template-columns: 273px;
+    grid-template-columns: repeat(2,2fr);
+}
+.film-exp__block {
+    height: 105px;
+    margin-bottom: 45px;
+}
+.purple-btn-three {
+    width: 60px;
 }
