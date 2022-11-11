@@ -2,7 +2,51 @@ body {
     margin: 0;
     background-color:#141923;
 }
-a {
-    list-style: none;
+h1{
     color: white;
+    font-family: 'Josefin Sans', Regular;
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Darker Grotesque', Medium;
+    font-size: 20px;
+}
+p {
+    color: #B2B2D3;
+    font-family: 'Darker Grotesque', Regular;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1241px;
+    margin: 0 auto;
+}
+.right-container {
+    width: 1580px;
+    margin-left: auto;
+}
+.d-flex {
+    display: flex;
+}
+.flex-sb {
+    justify-content: space-between;
+}
+.header__list-rp  {
+    width: 706px;
+    height: 140px;
+    align-items: center;
+}
+
+.main-menu__lp {
+    width: 530px;
+    height: 750px;
+    
+}
+.large-p-text {
+    font-size: 32px;
 }
