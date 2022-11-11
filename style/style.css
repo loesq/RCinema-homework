@@ -101,7 +101,7 @@ ul {
     height: 524px;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/expierense-pic.jpg);
+    background-image: url(images/expierense-pic.jpg);
     opacity: 0.6;
 }
 .film-exp__general {
