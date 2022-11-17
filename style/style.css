@@ -38,10 +38,6 @@ ul {
     width: 1241px;
     margin: 0 auto;
 }
-.right-container {
-    width: 1580px;
-    margin-left: auto;
-}
 .d-flex {
     display: flex;
 }
@@ -61,47 +57,64 @@ ul {
     width: 530px;
     height: 380px;
     margin: 184px 0;
+    flex-shrink: 0;
 }
 .large-p-text {
     font-size: 32px;
 }
 .main-menu__btns {
     margin-top: 100px;
-    width: 410px;
+    width: 440px;
 }
 .btn {
+    border: none;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 59px;
-    gap: 10px;
-    background-color: #40467C;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s ease;
 }
-.purple-btn-one {
+.btn:focus {
+    outline: none;
+}
+.purple-btn {
+    background-color: #40467C;
     width: 176px;
 }
-.purple-btn-two {
-    width: 210px;
-}
-.btn:hover {
+.purple-btn:hover {
     background-color: #51578C;
 }
 .btn:active {
     background-color: #121521;
     border: 2px solid white;
 }
+.btn-two {
+    width: 210px;
+    background-color: #121521;
+    border: 2px solid white;
+}
+.btn-two:active {
+    background-color: white;
+    color: black;
+}
 .header-bg {
     height: 750px;
 }
-
-
+.section-cover {
+    overflow: hidden;
+  }
 .film-exp__video {
     width: 606px;
     height: 524px;
     justify-content: center;
     align-items: center;
-    background-image: url(images/expierense-pic.jpg);
+    background-image: url(../images/expierense-pic.jpg);
     opacity: 0.6;
 }
 .film-exp__general {
