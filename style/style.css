@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:#141923;
+    background-color:#121521;
 }
 h1{
     color: white;
@@ -234,3 +234,104 @@ ul {
     margin-bottom: 90px;
 }
 
+
+.drop-line__general {
+    background-color: #1B213A;
+}
+.drop-line__field {
+    background-color: #1B213A;
+    width: 484px;
+    height: 60px;
+    border: 2px solid #40467C;
+}
+.drop-line__big-field {
+    background-color: #1B213A;
+    width: 484px;
+    height: 126px;
+    border: 2px solid #40467C;
+}
+.drop-line__field::placeholder {
+    color: #B2B2D3;
+}
+.drop-line__big-field::placeholder {
+    color: #B2B2D3;
+}
+.drop-line__field:active {
+    border: 2px solid white;
+}
+.drop-line__big-field:active {
+    border: 2px solid white;
+}
+input[type="text"] {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: white;
+}
+input[type="email"] {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    color: white;
+}
+.drop-line__rp {
+    width: 640px;
+    height: 640px;
+}
+.drop-line__rp {
+    flex-direction: column;
+    gap: 10px;
+}
+.drop-line__bp {
+    align-items: center;
+}
+.drop-line__accept {
+    align-items: center;
+}
+.drop-line__checkbox {
+    width: 20px;
+    height: 20px;
+}
+.drop-line {
+    margin-bottom: 120px;
+}
+
+.footer__top {
+    background-color: #121521;
+    margin-bottom: 35px;
+}
+.footer__fiel::placeholder {
+    padding-left: 20px;
+    color: #B2B2D3;
+}
+.footer__field {
+    background-color: #121521;
+    width: 240px;
+    height: 60px;
+    border: rgba(0, 0, 0, 0);
+}
+.footer__field-border {
+    align-items: center;
+    height: 72px;
+    border: 2px solid #40467C;
+}
+.footer__field:active {
+    border: rgba(0, 0, 0, 0);
+}
+.footer__top-general {
+    align-items: center;
+}
+
+
+.footer__bot {
+    background-color: #1B213A;
+}
+.footer__bot-general {
+    height: 130px;
+    align-items: center;
+}
+.footer__bot-img {
+    margin-right: 10px;
+}
