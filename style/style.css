@@ -4,30 +4,35 @@ body {
 }
 h1{
     color: white;
-    font-family: 'Josefin Sans', Regular;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 60px;
+    font-weight: 400;
 }
 h2{
     color: white;
-    font-family: 'Josefin Sans', Regular;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 46px;
+    font-weight: 400;
 }
 h3{
     color: white;
-    font-family: 'Darker Grotesque', SemiBold;
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 30px;
+    font-weight: 600;
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-family: 'Darker Grotesque', Medium;
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 20px;
+    font-weight: 500;
 }
 p {
     color: #B2B2D3;
-    font-family: 'Darker Grotesque', Regular;
+    font-family: 'Darker Grotesque', sans-serif;
     font-size: 20px;
+    font-weight: 400;
 }
 ul {
     margin: 0;
@@ -52,7 +57,12 @@ ul {
     height: 140px;
     align-items: center;
 }
-
+.white-text {
+    color: white;
+}
+.number-text {
+    font-size: 20px;
+}
 .main-menu__lp {
     width: 530px;
     height: 380px;
@@ -108,7 +118,7 @@ ul {
 }
 .section-cover {
     overflow: hidden;
-  }
+}
 .film-exp__video {
     width: 606px;
     height: 524px;
@@ -116,6 +126,9 @@ ul {
     align-items: center;
     background-image: url(../images/expierense-pic.jpg);
     opacity: 0.6;
+}
+.film-exp {
+    margin-bottom: 120px;
 }
 .film-exp__general {
     margin-top: 120px;
@@ -145,6 +158,79 @@ ul {
 .purple-btn-three {
     width: 60px;
 }
-.hi {
-    position: absolute;
+
+.arrows {
+    align-items: center;
 }
+.location__white-btn {
+    border: 2px solid #40467C;
+    width: 60px;
+    margin-right: 20px;
+}
+.location__white-btn:active {
+    background-color: white;
+}
+.location__purple-btn {
+    background-color: #40467C;
+    width: 60px;
+}
+.locations__item {
+    width: 400px;
+    height: 500px;
+}
+.locations__item-mid {
+    align-items: center;
+}
+
+.card {
+    height: 394px;
+    width: 394px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0);
+}
+.card:hover {   
+    opacity: 0.2; 
+    color: white;
+    transition: all 0.25s ease;
+}
+
+.card-one {
+    background-image: url(../images/cardOne.jpg);
+}
+.card-two {
+    background-image: url(../images/cardTwo.jpg);
+}
+.card-three {
+    background-image: url(../images/cardThree.jpg);
+}
+
+.locations {
+    margin-bottom: 120px;
+}
+
+
+.gallery__lp {
+    align-items: center;
+}
+.gallery__lp h2 {
+    margin-right: 30px;
+}
+.gallery__big-img {
+    width: 600px;
+    height: 630px;
+    margin-right: 30px;
+}
+.gallery__min-img {
+    width: 290px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.gallery__img-rp {
+    grid-template-columns: repeat(2,2fr);
+}
+.gallery {
+    margin-bottom: 90px;
+}
+
