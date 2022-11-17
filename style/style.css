@@ -113,6 +113,10 @@ ul {
     background-color: white;
     color: black;
 }
+.purple-btn-two {
+    background-color: #40467C;
+    width: 60px;
+}
 .header-bg {
     height: 750px;
 }
