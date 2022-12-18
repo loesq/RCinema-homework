@@ -289,13 +289,14 @@ textarea {
     resize: none;
 }
 .drop-line__rp {
+    position: relative;
     width: 640px;
     height: 640px;
-}
-.drop-line__rp {
     flex-direction: column;
     gap: 10px;
+    right: 280px;
 }
+
 .drop-line__bp {
     align-items: center;
 }
@@ -310,7 +311,10 @@ textarea {
     overflow: hidden;
     margin-bottom: 120px;
 }
-
+.drop-line__bg {
+    position: relative;
+    right: 340px;
+}
 .footer__top {
     background-color: #121521;
     margin-bottom: 35px;
